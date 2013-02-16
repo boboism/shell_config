@@ -1,8 +1,7 @@
 #Installation: 
-  cd ~
-  git clone http://github.com/boboism/shell_config.git ~/.boboism
- 
 <pre><code>
+cd ~
+git clone http://github.com/boboism/shell_config.git ~/.boboism
 ln -s ~/.boboism/ruby/gem/gemrc.gemrc
 ln -s ~/.boboism/git/gitconfig .gitconfig
 ln -s ~/.boboism/vim/gvimrc.gvimrc
