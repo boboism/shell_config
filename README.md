@@ -1,4 +1,4 @@
-Installation:
+*Installation:*
   cd ~
   git clone http://github.com/boboism/shell_config.git ~/.boboism
 
@@ -15,5 +15,5 @@ Installation:
   git submodule init
   git submodule update
 
-Daily Job:
+*Daily Job:*
   ./daily_job.sh
