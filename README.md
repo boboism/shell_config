@@ -2,7 +2,7 @@
   cd ~
   git clone http://github.com/boboism/shell_config.git ~/.boboism
  
-<pre><code>
+<code>
   ln -s ~/.boboism/ruby/gem/gemrc      .gemrc
   ln -s ~/.boboism/git/gitconfig       .gitconfig
   ln -s ~/.boboism/vim/gvimrc          .gvimrc
@@ -14,8 +14,8 @@
   cd ~/.boboism
   git submodule init
   git submodule update
-</code></pre>
+</code>
 #Daily Job:
-<pre><code>
+<code>
   ./daily_job.sh
-</code></pre>
+</code>
