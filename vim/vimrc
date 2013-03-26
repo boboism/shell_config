@@ -1,7 +1,8 @@
 "" pathogen is called before enabling filetype detection, so putting them at the top of vimrc file.
 runtime bundle/vim-pathogen/autoload/pathogen.vim " load pathogen in the ~/.vim/bundle directory
 "call pathogen#infect()        " replace it with the following 2 lines
-call pathogen#runtime_append_all_bundles()
+"call pathogen#runtime_append_all_bundles()
+call pathogen#incubate()
 call pathogen#helptags()
 
 set nocompatible               " not compatible to vi
