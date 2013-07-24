@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/boboism/projects/rails/rdemo'
-let g:netrw_dirhist_2='/home/boboism/.ssh/pac/.git'
-let g:netrw_dirhist_3='/home/boboism/.vim/bundle'
-let g:netrw_dirhist_4='/home/boboism/.vim/.git'
-let g:netrw_dirhist_5='/home/boboism/projects/rails/redmine_af/config/environments'
-let g:netrw_dirhist_6='/home/boboism/projects/rails/redmine_af'
-let g:netrw_dirhist_7='/Users/boboism/Projects/Ruby/Web/gogopiao/app/views'
-let g:netrw_dirhist_8='/Users/boboism/Projects/Ruby/Web/gogopiao/app/views/categories'
-let g:netrw_dirhist_9='/Users/boboism/Projects/Ruby/Web/grape-goliath-example'
+let g:netrw_dirhist_cnt =0
