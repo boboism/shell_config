@@ -9,6 +9,7 @@
     ln -s ~/.boboism/tmux/tmux.conf ~/.tmux.conf
     ln -s ~/.boboism/vim ~/.vim
     ln -s ~/.boboism/vim/vimrc ~/.vimrc
+    ln -s ~/.boboism/gem/gemrc ~/.gemrc
     cd ~/.boboism
     git submodule init
     git submodule update
