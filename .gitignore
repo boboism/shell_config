@@ -1,0 +1,27 @@
+# various artifacts
+**.war
+*.rbc
+*.sassc
+*.swp
+*.tag*
+
+# scm revert files
+**.orig
+
+# Mac finder artifacts
+.DS_Store
+
+# vim artifacts
+**.swp
+
+# vim temporary file
+*~
+
+# opensuse auto create .directory
+*.directory
+
+# BTSync 
+.SyncIgnore
+.SyncID
+
+.netrwhist

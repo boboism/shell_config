@@ -49,6 +49,6 @@
 [submodule "vim/bundle/vim-dispatch"]
 	path = vim/bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch.git
-[submodule "git/bash-git-prompt"]
-	path = git/bash-git-prompt
-	url = https://github.com/magicmonty/bash-git-prompt.git
+[submodule "vim/bundle/colorschemes"]
+	path = vim/bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
