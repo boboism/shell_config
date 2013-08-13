@@ -2,6 +2,7 @@
 if [ -f $HOME/.boboism/git/git-completion.bash ]; then 
   source $HOME/.boboism/git/git-completion.bash
 fi
+
 if [ -f $HOME/.boboism/git/git-prompt.sh ]; then 
   GIT_PS1_SHOWDIRTYSTATE=true 
   GIT_PS1_SHOWSTASHSTATE=true
@@ -13,3 +14,8 @@ if [ -f $HOME/.boboism/git/git-prompt.sh ]; then
   #PS1='[\W$(__git_ps1 "{%s}")]\$ '
   PROMPT_COMMAND='__git_ps1 ["\W" "]\$ "'
 fi
+
+#if [ -f $HOME/.bash/gitprompt.sh ]; then
+#  PROMPT_COMMAND=''
+#  source $HOME/.bash/gitprompt.sh
+#fi
