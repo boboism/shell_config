@@ -21,10 +21,10 @@ set ignorecase                 " set search ignorecase
 
 :filetype plugin indent on     "set filetype check on
 syntax on 
-set t_Co=256                   " 256 colors
+"set t_Co=256                   " 256 colors
 "set background=dark 
 colorscheme vividchalk
-set guifont=Menlo:h18
+"set guifont=Menlo:h18
 set sessionoptions+=unix,slash
 
 "" encodings configure
