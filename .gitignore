@@ -27,5 +27,5 @@
 .netrwhist
 
 
-/git/git-prompt.sh
-/git/git-completion.bash
+git/git-prompt.sh
+git/git-completion.bash
