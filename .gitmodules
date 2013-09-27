@@ -19,9 +19,6 @@
 [submodule "vim/bundle/vim-rails"]
 	path = vim/bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
-[submodule "vim/bundle/snipmate.vim"]
-	path = vim/bundle/snipmate.vim
-	url = git://github.com/msanders/snipmate.vim.git
 [submodule "vim/bundle/vim-haml"]
 	path = vim/bundle/vim-haml
 	url = git://github.com/tpope/vim-haml.git
@@ -55,3 +52,7 @@
 [submodule "git/bash-git-prompt"]
 	path = git/bash-git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt.git
+=======
+[submodule "vim/bundle/snipmate.vim"]
+	path = vim/bundle/snipmate.vim
+	url = https://github.com/garbas/vim-snipmate.git
