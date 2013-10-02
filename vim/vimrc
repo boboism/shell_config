@@ -21,7 +21,7 @@ set ignorecase                 " set search ignorecase
 
 :filetype plugin indent on     "set filetype check on
 syntax on 
-"set t_Co=256                   " 256 colors
+set t_Co=256                   " 256 colors
 "set background=dark 
 colorscheme vividchalk
 "set guifont=Menlo:h18
@@ -54,3 +54,15 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 autocmd FileType * set tabstop=2 shiftwidth=2 expandtab  
 autocmd FileType python set tabstop=2 shiftwidth=2 expandtab  
 autocmd FileType ruby set tabstop=2 shiftwidth=2 expandtab
+
+"CtrlP config
+"ignore files
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/public/*,*/log/*         " MacOSX/Linux
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*\\public\\*,*\\log\\*  " Windows
+
+"let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+"let g:ctrlp_custom_ignore = {
+"  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+"  \ 'file': '\v\.(exe|so|dll)$',
+"  \ 'link': 'some_bad_symbolic_links',
+"  \ }
