@@ -29,3 +29,5 @@
 
 git/git-prompt.sh
 git/git-completion.bash
+
+vim/bundle/*
