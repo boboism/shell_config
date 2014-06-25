@@ -8,3 +8,5 @@
 	ci = commit
 	co = checkout
 	br = branch
+[push]
+	default = simple
