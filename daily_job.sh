@@ -8,3 +8,4 @@ git submodule init && git submodule update
 git submodule foreach git pull origin master
 git add -A
 git commit -am "`date +%Y%m%d%H%M%S`"
+git push
